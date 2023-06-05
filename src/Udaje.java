@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 public class Udaje {
@@ -10,6 +11,7 @@ public class Udaje {
     String regnumber;
     Double consumption;
     String IP;
+    BigDecimal priceOneContract = BigDecimal.valueOf(10000);
 
 
     //get set
@@ -77,20 +79,16 @@ public class Udaje {
         this.IP = IP;
     }
 
-    /*
+    public BigDecimal getPriceOneContract() {
+        return priceOneContract;
+    }
+
+    public void setPriceOneContract(BigDecimal priceOneContract) {
+        this.priceOneContract = priceOneContract;
+    }
+
+
     //konstruktor
 
-
-    public Udaje(String name, LocalDate born, Integer numberOfContracts, Integer totalWeight, String city, String regnumber, Double consumption, String IP) {
-        this.name = name;
-        this.born = born;
-        this.numberOfContracts = numberOfContracts;
-        this.totalWeight = totalWeight;
-        this.city = city;
-        this.regnumber = regnumber;
-        this.consumption = consumption;
-        this.IP = IP;
-
-     */
 
 }
