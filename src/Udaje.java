@@ -1,2 +1,96 @@
-package PACKAGE_NAME;public class Udaje {
+import java.time.LocalDate;
+
+public class Udaje {
+
+    String name;
+    LocalDate born;
+    Integer numberOfContracts;
+    Integer totalWeight;
+    String city;
+    String regnumber;
+    Double consumption;
+    String IP;
+
+
+    //get set
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public LocalDate getBorn() {
+        return born;
+    }
+
+    public void setBorn(LocalDate born) {
+        this.born = born;
+    }
+
+    public Integer getNumberOfContracts() {
+        return numberOfContracts;
+    }
+
+    public void setNumberOfContracts(Integer numberOfContracts) {
+        this.numberOfContracts = numberOfContracts;
+    }
+
+    public Integer getTotalWeight() {
+        return totalWeight;
+    }
+
+    public void setTotalWeight(Integer totalWeight) {
+        this.totalWeight = totalWeight;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getRegnumber() {
+        return regnumber;
+    }
+
+    public void setRegnumber(String regnumber) {
+        this.regnumber = regnumber;
+    }
+
+    public Double getConsumption() {
+        return consumption;
+    }
+
+    public void setConsumption(Double consumption) {
+        this.consumption = consumption;
+    }
+
+    public String getIP() {
+        return IP;
+    }
+
+    public void setIP(String IP) {
+        this.IP = IP;
+    }
+
+    /*
+    //konstruktor
+
+
+    public Udaje(String name, LocalDate born, Integer numberOfContracts, Integer totalWeight, String city, String regnumber, Double consumption, String IP) {
+        this.name = name;
+        this.born = born;
+        this.numberOfContracts = numberOfContracts;
+        this.totalWeight = totalWeight;
+        this.city = city;
+        this.regnumber = regnumber;
+        this.consumption = consumption;
+        this.IP = IP;
+
+     */
+
 }
